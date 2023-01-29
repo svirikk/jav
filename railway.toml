@@ -1,8 +1,0 @@
-[build]
-builder = "NIXPACKS"
-buildCommand = "echo building!"
-
-[deploy]
-startCommand = "echo starting!"
-healthcheckPath = "/"
-restartPolicyType = "ALWAYS"
